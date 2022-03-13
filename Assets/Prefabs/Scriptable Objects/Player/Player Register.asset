@@ -12,4 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e957b0c3a41dc749b810a74d4fa559c, type: 3}
   m_Name: Player Register
   m_EditorClassIdentifier: 
-  players: []
+  players:
+  - name: Put a Name here.
+    coins: 1000
+    gems: 20
+  - name: Haytham
+    coins: 1000
+    gems: 20
+  - name: Put a Name here.
+    coins: 1000
+    gems: 20
+  - name: Put a Name here.
+    coins: 1000
+    gems: 20
+  - name: Put a Name here.
+    coins: 1000
+    gems: 20

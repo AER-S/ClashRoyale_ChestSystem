@@ -12,3 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 879065e8573e4baca5074a5a8b6d5da0, type: 3}
   m_Name: Common
   m_EditorClassIdentifier: 
+  timeToOpen: 900
+  coinsRange:
+    min: 100
+    max: 200
+  gemsRange:
+    min: 10
+    max: 20
