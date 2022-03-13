@@ -11,10 +11,10 @@ namespace Player
         [SerializeField] private int coins = 1000;
         [SerializeField] private int gems = 20;
 
-        [SerializeReference] private ChestSlot slot0;
-        [SerializeReference] private ChestSlot slot1;
-        [SerializeReference] private ChestSlot slot2;
-        [SerializeReference] private ChestSlot slot3;
+        [SerializeField] private ChestSlot slot0;
+        [SerializeField] private ChestSlot slot1;
+        [SerializeField] private ChestSlot slot2;
+        [SerializeField] private ChestSlot slot3;
 
         private ChestSlot _currentlyUnlocking;
         private Queue<ChestSlot> _toUnlockSlots;

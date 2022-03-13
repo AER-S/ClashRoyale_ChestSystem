@@ -2,8 +2,8 @@
 
 namespace Chests
 {
-    public class ChestSlot : MonoBehaviour
-    {
+    [System.Serializable]
+    public class ChestSlot {
         [SerializeField] private Chest chest;
     }
 }
